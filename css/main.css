@@ -18,6 +18,7 @@ nav ul li, nav .logo{
     line-height: 60px;
     margin-right: 20px;
     float: right;
+	letter-spacing: 5px;
 }
 
 nav ul li a, nav .logo{
@@ -87,7 +88,6 @@ button{
     margin-top: 40px;
 }
 
-
 .wrapper{
     max-width: 1080px;
     margin: 0 auto;
@@ -99,21 +99,25 @@ button{
 }
 *{
     font-family: 微软雅黑;
+	letter-spacing:5px;
     color: #fff;
 }
 h2{
-    font-size: 28px;
+    font-size: 26px;
 }
 h3{
-    font-size: 22px;
+    font-size: 20px;
 }
 p{
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 18px;
+	line-height: 28px;
+	margin-top: 44px;
+	letter-spacing: 1px;
 }
 .sub-p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 14px;
+	letter-spacing: 1px;
 }
 .green-section{
     background: #21B2A5;
@@ -133,26 +137,26 @@ p{
 }
 
 .icon-group .icon{
-    display: inline-block;
-    width: 65px;
-    height: 65px;
-    margin: 35px;
-    border: 1px solid #16A599;
-    transform: rotate(45deg);
-    background: #21B2A5;
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	margin: 35px;
+	border: 2px solid #21998F;
+	transform: rotate(45deg);
+	background: #22B2A5;
 }
  .icon-group .icon  i{
       transform: rotate(-45deg);
       margin: 16px;
 }
-i.fa.fa-html5.fa-2x{
+i.fa.fa-diamond.fa-2x{
       color: #09F7CC;
 }
 i.fa.fa-heart-o.fa-2x{
      color: #1AE2E7;
 }
 i.fa.fa-code.fa-2x{
-     color: #63DBF4;    
+     color: #79E8FF;    
 }
 
 
@@ -191,7 +195,7 @@ i.fa.fa-code.fa-2x{
 }
 
 .article-preview .content-section h2{
-    margin-top: 130px;
+    margin-top: 90px;
     margin-left: 80px;
 }
 .article-preview .content-section .sub-p{
@@ -232,11 +236,13 @@ i.fa.fa-code.fa-2x{
     clear: both;
 }
 
-
+.card-group.clearfix {
+margin-top: 50px;
+}
 .card{
     float: left;
     width: 50%;
-    min-height: 300px;
+    min-height: 360px;
     padding: 20px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -264,28 +270,24 @@ i.fa.fa-code.fa-2x{
 }
 
 footer{
-    background: #333;
-    color: #fff;
-    min-height: 200px;
-    text-align: center;
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
 }
 
 ul.share-group{
     display: block;
     width: 1080px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 40px;
 }
 
 .share-group li{
     display: inline-block;
     padding: 10px;
 }
-
-.copyright{
-    padding: 60px;
-}
-
 
 .main-wrapper{
     background:#444 url(../img/banner.jpg);
