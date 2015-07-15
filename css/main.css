@@ -1,0 +1,290 @@
+
+nav{
+    height:60px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    background: #333;
+    opacity: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li, nav .logo{
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 20px;
+    float: right;
+}
+
+nav ul li a, nav .logo{
+    line-height: 60px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
+nav .logo{
+    float: left;
+    padding-left: 20px;
+}
+nav .logo a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    background-color: rgba(0,0,0,0.4);
+}
+#banner{
+    height: 680px;
+    margin-top: -21px;
+}
+
+#banner .inner {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 140px;
+}
+
+ 
+#banner .inner .hr{
+    background: #fff;
+    width: 60%;
+}
+
+
+ .more{
+    top: 120px;
+    position: relative;
+}
+#banner .inner .sub-p{
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+button{
+    border: none;
+    background: #333;
+    color: #eee;
+    padding: 10px;
+}
+
+#banner button{
+    padding: 14px 40px;
+    background: #EE4833;
+    margin-top: 40px;
+}
+
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.hr{
+    height: 2px;
+    width: 100%;
+    margin: 20px auto;
+}
+*{
+    font-family: 微软雅黑;
+    color: #fff;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 22px;
+}
+p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.sub-p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.green-section{
+    background: #21B2A5;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    height: 420px;
+}
+.green-section .hr{
+    width: 40%;
+    background: #078494;
+}
+
+.icon-group{
+    margin-top: 80px;
+     height: 80px;
+}
+
+.icon-group .icon{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 35px;
+    border: 1px solid #16A599;
+    transform: rotate(45deg);
+    background: #21B2A5;
+}
+ .icon-group .icon  i{
+      transform: rotate(-45deg);
+      margin: 16px;
+}
+i.fa.fa-html5.fa-2x{
+      color: #09F7CC;
+}
+i.fa.fa-heart-o.fa-2x{
+     color: #1AE2E7;
+}
+i.fa.fa-code.fa-2x{
+     color: #63DBF4;    
+}
+
+
+.green-section .wrapper h2{
+    margin: 0;
+}
+
+
+.grey-section{
+    background: #234;
+}
+.article-preview:nth-child(odd){
+   background-color: rgba(255,255,255,0.05);
+}
+
+.article-preview {
+ 
+  font-size: 0px;
+}
+
+.article-preview > div{
+  float: left;
+}
+
+.grey-section .img-section{
+  width: 45%;
+}
+.grey-section .content-section{
+  width: 55%;
+  color: #fff;
+
+}
+
+.img-section img{
+  width: 100%;
+}
+
+.article-preview .content-section h2{
+    margin-top: 130px;
+    margin-left: 80px;
+}
+.article-preview .content-section .sub-p{
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.article-preview .content-section p{
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.article-preview:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.purple-section{
+    background: #503473;
+    color: #fff;
+    padding: 80px;
+}
+.purple-section .wrapper{
+    padding:  0 150px;
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+.purple-section .hr{
+    background: #234;
+    width: 60%;
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.card{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   /* border: 1px solid white;*/
+}
+.card:first-child{
+    background-color:rgba(255,255,255,0.04);
+}
+
+.card:nth-child(2){
+    background-color:rgba(255,255,255,0.08);
+}
+.card:nth-child(3){
+    background-color:rgba(255,255,255,0.12);
+}
+.card:nth-child(4){
+    background-color:rgba(255,255,255,0.16);
+}
+.card:nth-child(5){
+    background-color:rgba(255,255,255,0.2);
+}
+.card:nth-child(6){
+    background-color:rgba(255,255,255,0.24);
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+}
+
+ul.share-group{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.copyright{
+    padding: 60px;
+}
+
+
+.main-wrapper{
+    background:#444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
