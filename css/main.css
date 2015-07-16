@@ -4,6 +4,7 @@
     position: fixed;
     background: #2af;
     z-index: 3;
+	margin-left:-300px;
 }
 
 
@@ -78,6 +79,11 @@ header{
     top: 120px;
     position: relative;
 }
+i#down {
+ 
+margin-bottom: 20px;
+position: relative;
+}
 #banner .inner .sub-p{
     font-size: 20px;
     line-height: 50px;
@@ -136,7 +142,7 @@ p{
 }
 .green-section .hr{
     width: 40%;
-    background: #078494;
+    background: #20A296;
 }
 
 .icon-group{
