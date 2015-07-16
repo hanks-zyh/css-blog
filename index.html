@@ -10,10 +10,9 @@
 <body>
     <script type="text/javascript">
 		window.onload=function(){
-			alert("初始加载");
+			// alert("初始加载");
+
 		}
-	
-	
 		window.onscroll = function(){ 
 			var t = document.documentElement.scrollTop || document.body.scrollTop;  
 			var navbg = document.getElementById( "navbg" ); 
@@ -23,14 +22,29 @@
 				navbg.style.opacity = t/300;
 			} 
 		} 
+
+            function openMenu(){
+                var menu = document.getElementsByClassName("menu")[0];
+                // menu.style.opacity = 0.5;
+                menu.style.marginLeft = "-300px";
+            };
+            
+            function closeMenu(){
+                var menu = document.getElementsByClassName("menu")[0];
+                // menu.style.opacity = 1;
+                menu.style.marginLeft = "0px";
+            };
+
+       
   </script>
+    <nav class="menu">策划次啊的</nav>
     <div class="main-wrapper">
         <header><!-- 页头 -->
             <nav id="navfix">
                 <div class="logo"><a href="#">张小窝</a></div>
                 <div id="navbg"></div>
-                <ul>
-                    <li><a href="#"><i class="fa fa-bars"></i></a></li>
+                <ul id="switch" onmouseover="openMenu()" onmouseout="closeMenu()">
+                    <li id="menu-icon"><a href="#"><i class="fa fa-bars"></i></a></li>
                     <li><a href="#">MENU</a></li>
                 </ul>
             </nav>
