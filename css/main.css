@@ -2,12 +2,33 @@
     height: 100%;
     width: 300px;
     position: fixed;
-    background: #2af;
+    background: #159388;
     z-index: 3;
 	margin-left:-300px;
 }
-
-
+.menu ul{
+	 display: -webkit-flex; /* Safari */
+     display: flex;
+	 flex-direction:  column
+}
+.menu ul .hr{
+    height: 1px;
+	width: 74%;
+	margin: 0px 0px 0px 0px;
+	background: #157C73;
+	margin-right: 40px;
+}
+#closeMenu{
+	align-self:flex-end;
+}
+#mainLayer{
+width: 100%;
+height: 2000px;
+position: fixed;
+z-index: 0;
+background:#000;
+opacity:0;
+}
 nav{
     height:60px;
     position: fixed;
